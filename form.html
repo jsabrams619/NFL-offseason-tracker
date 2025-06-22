@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fan Feedback</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Fan Feedback</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="headlines.html">Headline Moves</a>
+      <a href="rankings.html">Power Rankings</a>
+      <a href="form.html">Fan Feedback</a>
+    </nav>
+  </header>
+  <main>
+    <form>
+      <label for="name">Name (required):</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email (required):</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="rating">Please rate our website (required):</label><br>
+      <select id="rating" name="rating" required>
+        <option value="1">1 – Very Bad</option>
+        <option value="2">2 – Poor</option>
+        <option value="3">3 – Average</option>
+        <option value="4">4 – Good</option>
+        <option value="5">5 – Excellent</option>
+      </select><br><br>
+
+      <label for="thoughts">Your thoughts on anything NFL related?</label><br>
+      <textarea id="thoughts" name="thoughts" rows="6" cols="50"></textarea><br><br>
+
+      <input type="submit" value="Send Feedback">
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2025 NFL Offseason Tracker by James Abrams</p>
+  </footer>
+</body>
+</html>
